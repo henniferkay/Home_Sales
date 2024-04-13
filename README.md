@@ -1,7 +1,7 @@
 # Home_Sales
 
 ## Background
-THe aim of this project was to determine key metrics about home sales during 2019-2022 using SparkSQL functions.
+The aim of this project was to determine key metrics about home sales during 2019-2022 using SparkSQL functions.
 
 ## Methods
 The home sales dataset was provided in the AWS S3 bucket that was read into Google Colab as a DataFrame. We used PySpark SQL functions to analyze the data. Specifically, we used Spark to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table has been uncached.
@@ -33,7 +33,6 @@ The table above shows that the average price of a four-bedroom house steadily in
 |      2011|291117.47|
 |      2010|292859.62|
 +----------+---------+
-
 
 * What is the average price of a home for each year the home was built, that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet?
 +----+----------+
